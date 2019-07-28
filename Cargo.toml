@@ -1,0 +1,17 @@
+[package]
+name = "cinder"
+version = "0.0.1"
+authors = ["Thao le <thaolt@songphi.com>"]
+edition = "2018"
+description = "CINDER is a Continuous Integration and Delivery system written in Rust"
+license-file = "LICENSE"
+homepage = "https://github.com/thaolt/cinder"
+repository = "https://github.com/thaolt/cinder"
+documentation = "https://github.com/thaolt/cinder"
+
+[dependencies]
+job_scheduler = "1.0"
+rust-embed = "5.1.0"
+postgres = "0.15"
+dotenv = "0.14.1"
+clap = { version = "2.33", features = ["yaml"] }
