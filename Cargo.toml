@@ -11,7 +11,7 @@ documentation = "https://github.com/thaolt/cinder"
 
 [dependencies]
 job_scheduler = "1.0"
-rust-embed = "5.1.0"
+rust-embed = "6.3.0"
 postgres = "0.15"
 dotenv = "0.14.1"
 clap = { version = "2.33", features = ["yaml"] }
